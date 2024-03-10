@@ -47,7 +47,7 @@ test_labels = get_labels("data/meta/meta/test.json")
 # Make binary data (pizza and steak)
 # Two classes: steak and pizza.
 
-parent_folder = "/Users/ivanmarkovski/Documents/PythonProjects/tensorflow-cert/create_dataset/"
+parent_folder = ""
 target_labels = ["steak", "pizza"]
 new_subset = "pizza_steak"
 datasets = ["train", "test"]
